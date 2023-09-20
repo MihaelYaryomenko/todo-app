@@ -1,1 +1,50 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #FFE0C2;
+}
+
+#nav-section {
+  background-color: #ff5f5d;
+  width: 100%;
+  height: 80px;
+}
+
+#add-btn {
+  background-color: #00ccbf;
+  border: none;
+  width: 90px;
+  height: 90px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#add-btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+#add-btn:active {
+  opacity: 0.6;
+}
+
+#add-text {
+  font-weight: 900;
+  font-family: "Kanit", sans-serif;
+}
+
+.icons {
+  width: 64px;
+  height: 64px;
+}/*# sourceMappingURL=main.css.map */

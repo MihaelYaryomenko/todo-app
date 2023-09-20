@@ -1,0 +1,48 @@
+@import './reset';
+@import './variables';
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;900&display=swap');
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: $fourth-color;
+}
+
+#nav-section {
+  background-color: $main-color;
+  width: 100%;
+  height: 80px;
+}
+
+#add-btn {
+  background-color: $third-color;
+  border: none;
+  width: 90px;
+  height: 90px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+#add-text {
+  font-weight: 900;
+  font-family: 'Kanit', sans-serif;
+}
+
+.icons {
+  width: 64px;
+  height: 64px;
+}
+
