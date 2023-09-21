@@ -39,6 +39,26 @@
   opacity: 0.6;
 }
 
+dialog {
+  z-index: 3;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 70%;
+  height: 400px;
+}
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+dialog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 #add-text {
   font-weight: 900;
   font-family: "Kanit", sans-serif;

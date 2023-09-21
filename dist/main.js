@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("\n\n//# sourceURL=webpack://todo-app/./src/index.js?");
+eval("const dialog = document.querySelector('dialog')\r\nconst addBtn = document.querySelector('#add-btn')\r\naddBtn.addEventListener('click',() => {\r\n  dialog.showModal()\r\n})\r\n\r\ndialog.addEventListener(\"click\", e => {\r\n  const dialogDimensions = dialog.getBoundingClientRect()\r\n  if (\r\n    e.clientX < dialogDimensions.left ||\r\n    e.clientX > dialogDimensions.right ||\r\n    e.clientY < dialogDimensions.top ||\r\n    e.clientY > dialogDimensions.bottom\r\n  ) {\r\n    dialog.close()\r\n  }\r\n})\n\n//# sourceURL=webpack://todo-app/./src/index.js?");
 
 /***/ })
 
